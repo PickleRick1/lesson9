@@ -1,0 +1,209 @@
+@import "null.css";
+.wrapper {
+	font-family: "Gideon Roman", sans-serif;
+	font-size: 18px;
+	min-height: 100%;
+	overflow: hidden;
+	color: black;
+}
+.container {
+	max-width: 1230px;
+	margin: 0 auto;
+	padding: 0 12px;
+}
+.game {
+	text-align: center;
+}
+.image-kratos {
+	width: 150px;
+	margin: 0 0 20px;
+}
+.game-text {
+	font-size: 36px;
+	margin: 0 0 20px;
+}
+.line-1 {
+	width: 70px;
+	height: 90px;
+	background: rgb(134, 133, 133);
+}
+.line-2 {
+	width: 100%;
+	height: 60px;
+	visibility: hidden;
+	background: rgb(134, 133, 133);
+}
+.line-1:hover + .line-2,
+.line-2:hover {
+	visibility: visible;
+}
+.line-3 {
+	margin: 0 0 0 auto;
+	visibility: hidden;
+	width: 40px;
+}
+.line-2:hover + .line-3,
+.line-2:hover {
+	visibility: visible;
+}
+.line-3:hover {
+	visibility: visible;
+}
+.game-img {
+	text-align: right;
+	visibility: hidden;
+}
+.line-3:hover + .game-img,
+.game-img:hover {
+	visibility: visible;
+}
+.line-4 {
+	width: 30px;
+	height: 100px;
+	margin: 0 0 0 auto;
+	background: rgb(134, 133, 133);
+	visibility: hidden;
+}
+.game-img:hover + .line-4,
+.line-4:hover {
+	visibility: visible;
+}
+.line-4:hover {
+	visibility: visible;
+}
+.line-5 {
+	width: 100%;
+	height: 20px;
+	background: rgb(134, 133, 133);
+	visibility: hidden;
+}
+.line-4:hover + .line-5,
+.line-5:hover {
+	visibility: visible;
+}
+.line-5:hover {
+	visibility: visible;
+}
+.line-6 {
+	width: 20px;
+	height: 30px;
+	background: rgb(134, 133, 133);
+	visibility: hidden;
+}
+.line-5:hover + .line-6,
+.line-6:hover {
+	visibility: visible;
+}
+.line-6:hover {
+	visibility: visible;
+}
+.game-img2 {
+	visibility: hidden;
+}
+.size-img {
+	width: 400px;
+}
+.line-6:hover + .game-img2,
+.game-img2:hover {
+	visibility: visible;
+}
+/*======================Макет===========================*/
+.maket1 {
+	font-family: "Lato", sans-serif;
+	font-size: 16px;
+	color: #424551;
+}
+.maket1-container {
+	max-width: 810px;
+	margin: 0 auto;
+	padding: 0 12px;
+}
+.header-maket {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	color: #1e212c;
+	margin: 0 0 26px;
+}
+.image-maket {
+	margin: 0 0 60px 0;
+}
+.text-bold {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 150%;
+	color: #1e212c;
+	margin: 0 0 24px 0;
+}
+.text-margin {
+	line-height: 160%;
+	margin: 0 0 48px;
+}
+.special {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 150%;
+	color: #1e212c;
+	margin: 0 0 48px 0;
+	padding: 0 0 0 58px;
+	background: url("../img/braces.svg") 0 0 no-repeat;
+}
+.text-regular {
+	line-height: 160%;
+	margin: 0 0 24px 0;
+}
+ul.text-regular li {
+	background: url("../img/check.svg") 0 5px no-repeat;
+	padding: 0 0 0 32px;
+}
+.text-regular li:not(:last-child) {
+	margin: 0 0 4px;
+}
+.date-time {
+	line-height: 160%;
+	color: #787a80;
+	margin: 0 0 40px;
+}
+.date {
+	display: inline-block;
+	background: url("../img/Vector.svg") 0 5px no-repeat;
+	padding: 0 0 0 24px;
+	margin: 0 24px 0 0;
+}
+.time {
+	display: inline-block;
+	background: url("../img/Clock.svg") 0 5px no-repeat;
+	padding: 0 0 0 24px;
+	margin-right: 377px;
+}
+
+.share {
+	display: inline-block;
+	color: #1e212c;
+	font-weight: 700;
+}
+
+.facebook {
+	display: inline-block;
+	background: url("../img/Facebook.svg") 0 0 no-repeat;
+	width: 20px;
+	height: 20px;
+	margin: 0 12px;
+}
+.twitter {
+	display: inline-block;
+	background: url("../img/Twitter.svg") 0 0 no-repeat;
+	width: 20px;
+	min-height: 20px;
+	margin: 0 12px 0 0;
+}
+.linked-in {
+	display: inline-block;
+	background: url("../img/Linked-In.svg") 0 0 no-repeat;
+	width: 20px;
+	min-height: 20px;
+}
+.icons {
+	line-height: 160%;
+	margin-left: 608px;
+}
